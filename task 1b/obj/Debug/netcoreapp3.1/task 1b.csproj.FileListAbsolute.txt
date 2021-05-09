@@ -1,0 +1,12 @@
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\bin\Debug\netcoreapp3.1\task 1b.exe
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\bin\Debug\netcoreapp3.1\task 1b.deps.json
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\bin\Debug\netcoreapp3.1\task 1b.runtimeconfig.json
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\bin\Debug\netcoreapp3.1\task 1b.runtimeconfig.dev.json
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\bin\Debug\netcoreapp3.1\task 1b.dll
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\bin\Debug\netcoreapp3.1\task 1b.pdb
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\obj\Debug\netcoreapp3.1\task 1b.AssemblyInfoInputs.cache
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\obj\Debug\netcoreapp3.1\task 1b.AssemblyInfo.cs
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\obj\Debug\netcoreapp3.1\task 1b.csproj.CoreCompileInputs.cache
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\obj\Debug\netcoreapp3.1\task 1b.dll
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\obj\Debug\netcoreapp3.1\task 1b.pdb
+C:\Users\gusti\Desktop\C#\GeekHWC-1\task 1b\obj\Debug\netcoreapp3.1\task 1b.genruntimeconfig.cache
