@@ -2,42 +2,48 @@
 
 namespace task2
 {
-    //С клавиатуры вводятся числа, пока не будет введён 0 (каждое число в новой строке). 
-    //Требуется подсчитать сумму всех нечётных положительных чисел.Сами числа и сумму вывести на экран, используя tryParse.
+//    Реализуйте задачу 1 в виде статического класса StaticClass;
+//а) Класс должен содержать статический метод, который принимает на вход массив и решает задачу 1;
 
-    class Program
+    class MyArray
     {
-        public int sum;
-        public int number;
+        int[] array;
 
-        public void Print(int sum)
+        public MyArray()
         {
-            Console.WriteLine("Сумма всех нечётных положительных чисел равна {0}", sum);
-        }
-        public int CountSum(int number)
-        {
-            do
-            {
-                Console.WriteLine("Введите число ");
-                number = int.Parse(Console.ReadLine());
-                if (number > 0 && number % 2 != 0)
-                {
-                    sum += number;
-                }
-            } while (number != 0);
-            return sum;
+            array = new int[20];
         }
 
-        static void Main(string[] args)
+        public int Count { get { return array.Length; } }
+        public int this[int index, int item]
         {
-            Program pro = new Program();
 
-            pro.CountSum(pro.number);
-            pro.Print(pro.sum);
-
-            Console.ReadLine();
-
+            get { return array[index]; }
+            set { array[index] = item; }
         }
     }
-    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            MyArray Num = new MyArray();
+
+            int count1 = 0;
+            Random rnd = new Random();
+            for (int i = 0; i < Num.Count; i++)
+            {
+                Num[i, rnd.Next(-10000, 10001)] = rnd.Next(-10000, 10001);
+                Console.Write($"{ Num[i, rnd.Next(-10000, 10001)]}, ");
+            }
+            for (int i = 0; i < (Num.Count - 1); i++)
+            {
+                if (Num[i, rnd.Next(-10000, 10001)] % 3 == 0 && Num[i + 1, rnd.Next(-10000, 10001)] % 3 != 0)
+                {
+                    count1++;
+                }
+            }
+            Console.WriteLine($"Count =  {count1}");
+            Console.ReadLine();
+        }
+    }
 }
