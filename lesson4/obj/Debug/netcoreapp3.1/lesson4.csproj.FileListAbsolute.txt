@@ -1,0 +1,13 @@
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\obj\Debug\netcoreapp3.1\lesson4.csprojAssemblyReference.cache
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\obj\Debug\netcoreapp3.1\lesson4.AssemblyInfoInputs.cache
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\obj\Debug\netcoreapp3.1\lesson4.AssemblyInfo.cs
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\obj\Debug\netcoreapp3.1\lesson4.csproj.CoreCompileInputs.cache
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\bin\Debug\netcoreapp3.1\lesson4.exe
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\bin\Debug\netcoreapp3.1\lesson4.deps.json
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\bin\Debug\netcoreapp3.1\lesson4.runtimeconfig.json
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\bin\Debug\netcoreapp3.1\lesson4.runtimeconfig.dev.json
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\bin\Debug\netcoreapp3.1\lesson4.dll
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\bin\Debug\netcoreapp3.1\lesson4.pdb
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\obj\Debug\netcoreapp3.1\lesson4.dll
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\obj\Debug\netcoreapp3.1\lesson4.pdb
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson4\obj\Debug\netcoreapp3.1\lesson4.genruntimeconfig.cache
