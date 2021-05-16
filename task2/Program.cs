@@ -1,43 +1,98 @@
 ﻿using System;
+using System.Linq;
+using System.Text;
 
 namespace task2
 {
-    //С клавиатуры вводятся числа, пока не будет введён 0 (каждое число в новой строке). 
-    //Требуется подсчитать сумму всех нечётных положительных чисел.Сами числа и сумму вывести на экран, используя tryParse.
-
-    class Program
+    //Разработать статический класс Message, содержащий следующие статические методы для обработки текста:
+    //а) Вывести только те слова сообщения, которые содержат не более n букв.
+    //б) Удалить из сообщения все слова, которые заканчиваются на заданный символ.
+    //в) Найти самое длинное слово сообщения.
+    //г) Сформировать строку с помощью StringBuilder из самых длинных слов сообщения.
+    //д) *** Создать метод, который производит частотный анализ текста.
+    //В качестве параметра в него передается массив слов и текст, в качестве результата метод возвращает
+    //сколько раз каждое из слов массива входит в этот текст.
+    //Здесь требуется использовать класс Dictionary.
+    class Message
     {
-        public int sum;
-        public int number;
+        public static bool value = false;
+        public static string[] SepText;
+        public static string text = "молоко овощи погода небо ппоаоадводаодвоа";
 
-        public void Print(int sum)
+        public static string[] CountMessage(string text, char charToTrim)
         {
-            Console.WriteLine("Сумма всех нечётных положительных чисел равна {0}", sum);
+            return SepText = text.Split(' ');
         }
-        public int CountSum(int number)
+
+        public static string[] TrimMessage(string text, char charToTrim) // вот тут я не понимаю, что не так, какие значения ещё хочет возвращать этот метод
         {
-            do
+            for (int i = 0; i < SepText.Length; i++)
             {
-                Console.WriteLine("Введите число ");
-                number = int.Parse(Console.ReadLine());
-                if (number > 0 && number % 2 != 0)
-                {
-                    sum += number;
-                }
-            } while (number != 0);
-            return sum;
+                if (SepText[i].EndsWith(charToTrim))
+                    return SepText[i].Trim(charToTrim);
+            }
+
+
+
         }
-
-        static void Main(string[] args)
+        class Program
         {
-            Program pro = new Program();
 
-            pro.CountSum(pro.number);
-            pro.Print(pro.sum);
 
-            Console.ReadLine();
+            static void Main(string[] args)
+            {
+                Message mes = new Message();
 
+                int n = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Введите символ, который хотите удалить из всех строк");
+                char charToTrim = Convert.ToChar(Console.ReadLine());
+
+                //text1 = "молоко овощи погода небо ппоаоадводаодвоа";
+
+
+
+                mes.CountMessage(text, charToTrim); // здесь как-то некорректно вызывается метод, говорит, что нужно указать имя типа
+
+
+
+                // удаление последнего символа из каждой строки
+                //for (int i = 0; i < SepText.Length; i++)
+                //{
+
+                //    if (SepText[i].EndsWith(charToTrim))
+                //        Console.WriteLine(SepText[i].Trim(charToTrim));
+                //}
+
+                // вывод слов определенной длины
+                //for (int i = 0; i < SepText.Length; i++)
+                //{
+
+                //    if (SepText[i].Length <= n)
+                //    {
+                //        value = true;
+                //        Console.WriteLine(SepText[i]);
+                //    }
+                //if (SepText[i].EndsWith(charToTrim))
+                //Console.WriteLine(SepText[i].Trim(charToTrim));
+
+                // }
+                //if (value == false)
+                //    Console.WriteLine("wrong number");
+
+
+
+
+
+                //Console.WriteLine("Самая длинная строка: " + SepText.Max());
+
+                //StringBuilder str = new StringBuilder();
+                //str.Append(" 111");
+                //Console.WriteLine(str);
+
+                Console.ReadLine();
+            }
         }
     }
-    
 }
+
