@@ -1,0 +1,13 @@
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\bin\Debug\netcoreapp3.1\lesson5hwRetry.exe
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\bin\Debug\netcoreapp3.1\lesson5hwRetry.deps.json
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\bin\Debug\netcoreapp3.1\lesson5hwRetry.runtimeconfig.json
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\bin\Debug\netcoreapp3.1\lesson5hwRetry.runtimeconfig.dev.json
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\bin\Debug\netcoreapp3.1\lesson5hwRetry.dll
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\bin\Debug\netcoreapp3.1\lesson5hwRetry.pdb
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\obj\Debug\netcoreapp3.1\lesson5hwRetry.csprojAssemblyReference.cache
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\obj\Debug\netcoreapp3.1\lesson5hwRetry.AssemblyInfoInputs.cache
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\obj\Debug\netcoreapp3.1\lesson5hwRetry.AssemblyInfo.cs
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\obj\Debug\netcoreapp3.1\lesson5hwRetry.csproj.CoreCompileInputs.cache
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\obj\Debug\netcoreapp3.1\lesson5hwRetry.dll
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\obj\Debug\netcoreapp3.1\lesson5hwRetry.pdb
+C:\Users\gusti\Desktop\C#\GeekHWC-1\lesson5hwRetry\obj\Debug\netcoreapp3.1\lesson5hwRetry.genruntimeconfig.cache
